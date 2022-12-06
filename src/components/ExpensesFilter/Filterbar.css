@@ -1,0 +1,39 @@
+.barcontainer{
+    background-color: #181818;
+    position: relative;
+    /* transform: translateY(-50%); */
+    /* top: 50%; */
+    margin-left: 50px;
+    width: 10px;
+    height: 320px;
+    float: left;
+  }
+  .barcontainer p{
+    position: absolute;
+    bottom: -50px;
+  }
+    
+  .bar{
+    background-color: #9BC9C7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80%;
+    /* //border-top: 6px solid #FFF; */
+    box-sizing: border-box;
+    animation: grow 1.5s ease-out forwards;
+    transform-origin: bottom;
+  }
+
+  .bars{
+    
+    padding: 4rem;
+    /* background-color: rgb(31,31,31); */
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+  }

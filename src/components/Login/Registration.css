@@ -1,0 +1,15 @@
+.newuser_registration {
+    text-align: center;
+}
+
+.newuser_registration p{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.newuser_registration input{
+    width: 20%;
+    padding: 8px;
+}
